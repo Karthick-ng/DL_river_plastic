@@ -12,7 +12,7 @@ rf = Roboflow(api_key="8PmKE7lnezZGqlFq7yxm")
 project = rf.workspace("mylab").project("thai_laos")
 dataset = project.version(1).download("yolov8")
 ```
-### ROBOFLOW LINK (DATASET--https://app.roboflow.com/mylab/thai_laos/1)--> where we can annotate, preprocess and augment datasets(IMAGES)
+### ROBOFLOW LINK (DATASET-- https://app.roboflow.com/mylab/thai_laos/1) --> where we can annotate, preprocess and augment datasets(IMAGES)
 ### 2. Train from scratch
 
 ```bash
